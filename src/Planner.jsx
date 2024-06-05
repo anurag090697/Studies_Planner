@@ -80,14 +80,14 @@ function Plans() {
           key={index}
           className='select-none grid-cols-4 grid gap-4 items-center mx-auto w-fit my-6 text-center font-medium'
         >
-          <p className="bg-cyan-500 rounded-xl p-1">{ele.Subject}</p>
+          <p className='bg-cyan-500 rounded-xl p-1'>{ele.Subject}</p>
           <button
             className='font-black rounded-full bg-red-600 w-8 h-8 hover:bg-pink-700 hover:text-white'
             onClick={() => decreaseHour(index)}
           >
             -
           </button>
-          <p className="bg-indigo-500 rounded-xl p-1">{ele.time}-Hours</p>
+          <p className='bg-indigo-500 rounded-xl p-1'>{ele.time}-Hours</p>
           <button
             className='rounded-full bg-green-600 w-8 h-8 hover:bg-lime-600 hover:text-white font-black'
             onClick={() => increaseHour(index)}
